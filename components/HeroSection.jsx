@@ -45,9 +45,11 @@ export default function HeroSection() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.98 }}
           className="relative"
         >
-          <div className="rounded-2xl border border-gray-200 bg-white shadow-[0_20px_60px_-15px_rgba(59,130,246,0.25)] p-4">
+          <div className="rounded-2xl border border-gray-200 bg-white shadow-[0_20px_60px_-15px_rgba(59,130,246,0.25)] p-4 cursor-pointer">
             {/* Browser Header */}
             <div className="flex items-center gap-2 mb-3">
               <span className="w-3 h-3 rounded-full bg-slate-100" />
