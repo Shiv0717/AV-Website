@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* GRID BACKGROUND */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:40px_40px] opacity-30" />
 
-      <div className="relative mx-auto max-w-7xl px-4 py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+      <div className="relative mx-auto max-w-7xl px-4 py-14 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         {/* LEFT CONTENT */}
         <div>
           <span className="inline-flex items-center gap-2 rounded-full bg-green-50 px-4 py-1 text-xs font-semibold text-green-700 border border-green-300">
@@ -22,18 +22,19 @@ export default function HeroSection() {
             <span className="text-blue-600">Vedic Numerologists.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-gray-600 text-lg">
+          <p className="mt-6 max-w-xl text-slate-600 text-md font-light md:text-lg">
             Bridging ancient Siddhant with modern precision. Stop calculating
             grids manually and start delivering deeper insights. Instant dasha
             charts, client CRM, and whitelabeled reports.
           </p>
 
           <Link
-            href="https://app.ankvidya.in"
-            className="inline-flex items-center gap-2 mt-8 rounded-xl bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 transition"
-          >
-            Sign Up for Free Beta →
-          </Link>
+  href="https://app.ankvidya.in"
+  className="inline-flex w-full sm:w-auto items-center justify-center gap-2 mt-8 rounded-xl bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 transition"
+>
+  Sign Up for Free Beta →
+</Link>
+
         </div>
 
         {/* RIGHT — DASHBOARD (Framer Motion) */}

@@ -8,7 +8,7 @@ export default function Navbar() {
         
         {/* LEFT — LOGO IMAGE ONLY */}
         <Link href="/" className="flex items-center">
-          <div className="relative w-16 h-10 sm:w-32 sm:h-12">
+          <div className="relative w-28 h-10 sm:w-32 sm:h-12">
             <Image
               src="/logo_new.jpeg"
               alt="AnkVidya Logo"
