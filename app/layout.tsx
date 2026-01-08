@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   },
   description:
     "AnkVidya is a digital workbench for Vedic Numerologists.",
+    icons: {
+      icon: "/favicon.png",
+      apple: "/favicon.png", // optional
+    },
 };
 
 export default function RootLayout({
@@ -35,7 +39,7 @@ export default function RootLayout({
       <body
         
       >
-         <LenisProvider>
+        <LenisProvider>
         <LaunchBanner />
         <Navbar />
         <main className="min-h-screen">{children}</main>
